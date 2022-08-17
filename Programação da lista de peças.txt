@@ -1,0 +1,23 @@
+let ListadePeças = [ "motor","vi","lanterna"]
+let pesodapeça = 200
+let quantidadeDePeças = 30
+
+
+if (pesodapeça > 100) {console.log ("pode cadastrar")}
+else {console.log ("peso não correspondente")}
+
+console.log ("------------------------------------------------------------------------")
+
+if (quantidadeDePeças > 10) {console.log ("capacidade da caixa execedido")}
+else {console.log ("capacidade da caixa permitido")}
+
+console.log ("-------------------------------------------------------------------------")
+
+
+for (let index = 0; index < ListadePeças.length; index++) {
+    const nomeDaPeça = ListadePeças[index];
+
+        if (nomeDaPeça.length > 3) {console.log ("nome da peça ok")}
+        else {console.log ("erro no nome da peça")}
+
+}
